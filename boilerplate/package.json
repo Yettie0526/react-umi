@@ -13,5 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "umi": "4.0.0-rc.20"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.34",
+    "typescript": "^4"
   }
 }
