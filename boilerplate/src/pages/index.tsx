@@ -1,7 +1,8 @@
 import React from "react";
-import { Link, useSearchParams, createSearchParams, useLocation, } from "umi";
-import logoImg from '@/assets/logo.png';
-import styles from './index.less';
+import { Link, useSearchParams, createSearchParams, useLocation } from "umi";
+import logoImg from "@/assets/logo.png";
+import "./index.less";
+
 // 需要开启 svgr 配置之后才可用
 // import UmiLogo from '@/assets/umi.svg';
 
@@ -12,9 +13,9 @@ export default () => {
   const a = searchParams.get("a");
   const b = searchParams.get("b");
   return (
-    <div className={styles.main}>
+    <div className="main">
       Index Page
-      <img src={logoImg} width={150}/>
+      <img src={logoImg} width={150} />
       {/* <UmiLogo/> */}
       <p>
         <Link to="/user">Go to user page</Link>

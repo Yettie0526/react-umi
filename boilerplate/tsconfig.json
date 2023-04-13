@@ -10,6 +10,7 @@
     "baseUrl": ".",
     "strict": true,
     "paths": {
+      "config": ["./confiog"],
       "@/*": ["./src/*"],
       "@@/*": ["./src/.umi/*"]
     },
@@ -17,6 +18,7 @@
   },
   "include": [
     "src",
-    "images.d.ts"
-  ],
+    "images.d.ts", 
+    "typings.d.ts"
+, "config"  ],
 }
