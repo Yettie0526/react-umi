@@ -1,2 +1,7 @@
+## 忽略提交至 git 的文件
 node_modules
+dist
 .history
+.umi
+.umi-production
+.pnpm-debug.log
